@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.ali{
+    background-color: #393b40;
+    height: 800px;
+    width: 100%;
+}
+
+                /* head section start */
+
+.heading-1{
+    font-size: 120px;
+    font-style: italic;
+    font-family: 'Caramel', cursive;
+}
+.hea-2{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.pra-1{
+    letter-spacing: 1.5px;
+}
+
+            /* menu sec start */
+
+.menu-hea-1{
+    font-size: 70px;
+    font-family: 'Merienda', cursive;
+}
+
+/* <!-- more info sec start --> */
+
+.more-info{
+    background-color: #27292c;
+    color: #fff;
+}
+
+/* <!-- design sec start --> */
+
+.des-hea{
+    letter-spacing: 1.5px;
+}
+
+/* <!-- pizza sec start --> */
+
+.pizza{
+    background-color:#393b40;
+    color: #fff; 
+    height: 620px;
+}
+.piz-hea-1{
+    font-size: 60px;
+    font-family: 'Merienda', cursive;
+}
+.zero-line{
+    border-bottom: 8px solid white;
+    width: 100px;
+    position: absolute;
+    left: 600px;
+}
+
+            /* pizza-2 start */
+
+.pizza-2{
+    color: #000;
+    padding-top: 100px;
+}
+.pizza-2-hea{
+    font-family: 'Merienda', cursive;
+}
+
+/* <!-- title here section start --> */
+
+.title-here{
+    background-color: #393b40;
+    color: #fff;
+    padding-top: 150px;
+}
+.title-h{
+    letter-spacing: 1.5px;
+}
+.form{
+    margin-bottom: 100px;
+}
+.input-group-text{
+    cursor: pointer;
+}
+
+/* <!-- footer section start --> */
+
+.footer{
+    margin: 150px 0;
+}
+.footer p{
+    font-size: 18px;
+}
+.icons{
+    cursor: pointer;
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+    .ali{
+        height: 1160px;
+    }
+    .profile-pic{
+        width: 300px;
+    }
+    .menu-hea-1{
+        font-size: 30px;
+    }
+    .butn-1{
+        margin-left: -50px;
+        width: 170px;
+    }
+    .profile-pic2{
+        width: 300px;
+    }
+    .profile-pic3{
+        width: 300px;
+    }
+    .pizza{
+        height: 500px;
+    }
+    .zero-line{
+        position: absolute;
+        left: 130px;
+    }
+    .piz-hea-1{
+        font-size: 30px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .ali{
+        height: 900px;
+    }
+    .profile-pic{
+        width: 370px;
+    }
+    .profile-pic2{
+        margin-top: 100px;
+        width: 300px;
+    }
+    .chu{
+        margin-left: 50px;
+    }
+    .zero-line{
+        position: absolute;
+        left: 350px;
+    }
+    .butn-1{
+        width: 170px;
+    }
+    .profile-pic3{
+        width: 420px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .profile-pic{
+        width: 500px;
+    }
+    .chu{
+        margin-left: 100px;
+    }
+    .butn-1{
+        width: 170px;
+    }
+    .zero-line{
+        position: absolute;
+        left: 450px;
+    }
+}
+@media(min-width:1025px){
+    .zero-line{
+        position: absolute;
+        left: 670px;
+    }
+}
